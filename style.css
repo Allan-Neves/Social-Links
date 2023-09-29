@@ -14,8 +14,10 @@ body {
   background: url("images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100%;
 }
+
 
 .gradient {
   background: linear-gradient(50deg,

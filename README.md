@@ -2,7 +2,7 @@
 
  Esse é um código que eu fiz com a ajuda do curso [Programadores BR](https://programadorbr.com/). Aqui você encontrará uma simples landingpage com todas as minhas redes sociais!
 
-![Screenshot do Site](https://imgur.com/ZmP5aKS.png)
+![Screenshot do Site](https://imgur.com/GVDAWeT.png)
 
 ## Demo
 

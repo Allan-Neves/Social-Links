@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.gradient {
+  background: linear-gradient(50deg,
+      rgba(85, 120, 186, 1) 35%,
+      rgba(64, 163, 118, 1) 70%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#container {
+  max-width: 540px;
+  margin: auto;
+
+  padding: 20px;
+  height: 100%;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foto-perfil {
+  width: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+.username {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 16px 0;
+  white-space: normal;
+}
+
+.descricao {
+  color: #919193;
+  font-size: 1.1em;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  gap: 1.5em;
+}
+
+.item-lista {
+  font-size: 1.2em;
+  height: 4em;
+  border-radius: 2em;
+  display: flex;
+  transition: all .5s;
+}
+
+.item-lista:hover {
+  transform: rotate(3deg) scale(0.97);
+}
+
+.link {
+  padding: 0 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.link>img {
+  width: 1.2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.contato {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+.contato>img {
+  width: 1.8em;
+}
+
+.contato:hover {
+  transform: rotate(15deg) scale(1.06);
+}
+
+@media screen and (min-width: 815px) {
+  html {
+    font-size: 20px;
+  }
+}

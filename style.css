@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: url("images/background.jpg");
+  background: url("images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -19,8 +19,8 @@ body {
 
 .gradient {
   background: linear-gradient(50deg,
-      rgba(85, 120, 186, 1) 35%,
-      rgba(64, 163, 118, 1) 70%);
+  #3a71be 35%,
+  #003a92 70%);
 }
 
 a {
@@ -77,11 +77,13 @@ a {
   height: 4em;
   border-radius: 2em;
   display: flex;
-  transition: all .5s;
+  transition: transform .5s ease;
 }
 
 .item-lista:hover {
   transform: rotate(3deg) scale(0.97);
+  border: 2px solid #fff;
+  background: transparent;
 }
 
 .link {

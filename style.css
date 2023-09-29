@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 .descricao {
-  color: #919193;
+  color: #c8c8c9;
   font-size: 1.1em;
 }
 

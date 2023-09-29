@@ -2,11 +2,11 @@
 
  Esse é um código que eu fiz com a ajuda do curso [Programadores BR](https://programadorbr.com/). Aqui você encontrará uma simples landingpage com todas as minhas redes sociais!
 
-![Screenshot do Site](https://imgur.com/DfIXi14.png)
+![Screenshot do Site](https://imgur.com/ZmP5aKS.png)
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Social-Links/) e você será redirecionado(a) para o site.
+[Clique aqui](https://allan-carlos.vercel.app) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
